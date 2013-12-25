@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Calculator</title>
+<script src="calculator.js"></script>
+<body>
+<div>
+<div> <input type="textfield" value="" id="textbox"></div>
+<div>
+	<br> <input type="button" value="C" id="btnclear" onclick='clrText("")'></br>	
+	<br> <input type="button" value="7" id="btnseven" onclick='readKey("7")'>
+	    <input type="button" value="8" id="btneight" onclick='readKey("8")'>
+	    <input type="button" value="9" id="btnnine" onclick='readKey("9")'>
+	    <input type="button" value="/" id="btndiv" onclick='oper("/")'>
+	</br>
+	<br> <input type="button" value="4" id="btnseven" onclick='readKey("4")'>
+	    <input type="button" value="5" id="btneight" onclick='readKey("5")'>
+	    <input type="button" value="6" id="btnnine" onclick='readKey("6")'>
+	    <input type="button" value="*" id="btndiv" onclick='oper("*")'>
+	</br>
+	<br> <input type="button" value="2" id="btnseven" onclick='readKey("2")'>
+	    <input type="button" value="3" id="btneight" onclick='readKey("3")'>
+	    <input type="button" value="4" id="btnnine" onclick='readKey("4")'>
+	    <input type="button" value="-" id="btndiv" onclick='oper("-")'>
+	</br>
+	<br> <input type="button" value="0" id="btnzero" onclick='readKey("0")'>
+	    <input type="button" value="1" id="btnone" onclick='readKey("1")'>
+	    <input type="button" value="=" id="btnequal" onclick='equalTo()'>
+	    <input type="button" value="+" id="btnadd" onclick='oper("+")'>
+	</br>
+	<br> <input type="button" value="sin" id="btnsin" onclick='trignometric("sin")'>
+	    <input type="button" value="cos" id="btncos" onclick='trignometric("cos")'>
+	    <input type="button" value="tan" id="btntan" onclick='trignometric("tan")'>
+
+	</br>
+</div>
+</div>
+</body>
+
+</head>
+
+</html>
+
